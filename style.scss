@@ -1,0 +1,81 @@
+
+
+
+@mixin position{
+    position: absolute;
+    bottom: 11%;
+    left: 24%;
+    top: 22%;
+    right: 0%;
+}
+@mixin positionToLastCard{
+    position: relative;
+    bottom: 21%;
+    left: 100%;
+    top: 6%;
+    right: 0%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@mixin reset {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    
+}
+
+* {
+    @include reset()
+}
+
+.positione{
+    position: relative;
+}
+
+.form-group{
+    @include position()
+}
+
+.last-Card{
+    @include positionToLastCard();
+}
+
+.background{
+    background-color:cornsilk;
+    width: 100%;
+    padding: 25px;
+    border: 35px solid #fff2db;
+    margin-top: 1%;
+    
+    
+}
+
+@mixin flex-container {
+    display: flex;
+    justify-content:space-around;
+    width: 98%;
+    position: relative;
+    margin-bottom: 1%;
+    
+
+    
+}
+
+.flex-container{
+    @include flex-container()
+
+}
+.copyright{
+    position:absolute;
+    left: 40%;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+
+

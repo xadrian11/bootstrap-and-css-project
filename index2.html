@@ -1,0 +1,288 @@
+  <!DOCTYPE html>
+  <html lang="pl">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    
+    <script src="main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <nav class=" navbar navbar-expand-sm navbar-light bg-secondary navbar-respons " >
+      <div class="container-fluid"></div>
+        <a class="navbar-brand" href="#"><img
+            src="https://cdn.pixabay.com/photo/2016/09/14/20/50/teeth-1670434_960_720.png" alt="" width="30" height="30"
+            class="d-inline-block align-top ">
+          Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+          aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse " id="navbar">
+          <ul class="navbar-nav  mb-1 mb-lg-1">
+            <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <form class="d-flex">
+              <input class=" ml-1 form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="ml-2 btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+      <div class="carousel-indicators ">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner  rounded mt-1 mx-0  mb-1 label-button  ">
+        <div class="carousel-item active ad1">
+          <img src="https://cdn.pixabay.com/photo/2017/03/05/00/34/panorama-2117310__480.jpg"class="img-fluid mx-auto d-block w-sm-25 mb-auto img "
+            alt="...">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5 class="text-primary ">First slide label</h5>
+              <p class="text-primary">Some representative placeholder content for the first slide.</p>
+              <button type="button" class=" mx-3 mb-2 btn btn-primary  btn-lg ">Large button</button>
+              <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+            </div>
+        </div>
+        <div class="carousel-item rounded ad2 label-button">
+          <img src="https://cdn.pixabay.com/photo/2017/08/16/00/59/panorama-2646143__480.jpg " 
+            class="img-fluid mx-auto d-block w-sm-25  " alt="...">
+          <div class="carousel-caption d-none d-md-block ">
+            <h5 class="text-primary">Second slide label</h5>
+            <p class="text-primary">Some representative placeholder content for the second slide.</p>
+            <button type="button" class=" mb-2 btn btn-primary btn-lg  ">Large button</button>
+            <button type="button" class="btn btn-secondary btn-lg btn-lg">Large button</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-primary w-10" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
+        <span class="visually-hidden text-info">Next</span>
+      </button>
+    </div>
+
+
+    <section>
+      
+      <div class="row row-cols-sm-4   row-cols-md-2 row-cols-lg-6 row-cols-mt-3  row-cols-lg-g-4 d-flex justify-content-center ">
+        <div class="d-flex justify-content-center ">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2020/03/30/17/15/funes-4984899__480.jpg"  class="card-img-top "
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Obrazek 1</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center ">
+          <div class="card ">
+            <img src="https://cdn.pixabay.com/photo/2020/01/05/17/37/mountains-4743678__480.jpg" class="card-img-top "
+              alt="...">
+            <div class="card-body ">
+              <h5 class="card-title">Obrazek 2</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center ">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2015/10/12/15/03/matterhorn-984128__480.jpg" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Obrazek 3</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <div class="row mt-5">
+      <div class="col-md-5 offset-md-4">
+        <h2 class="blog-post-title mt-1 my-1">Przykładowy post</h2>
+          <p class="2h-sm">But you better choose carefully. Yo, shout out to all you kids, buying bottle service, with your
+            rent money.<br>  She's sweet as pie but if you break her heart. Just own the night like the 4th of July! In another
+            life I would be your girl. Playing ping pong all night long, everything's all neon and hazy. Shorty so bad, I’m
+            sprung and I don’t care.</p>
+            <p class="lh-sm">But you better choose carefully. Yo, shout out to all you kids, buying bottle service, with your
+              rent money.<br>  She's sweet as pie but if you break her heart. Just own the night like the 4th of July! In another
+              life I would be your girl. Playing ping pong all night long, everything's all neon and hazy. Shorty so bad, I’m
+              sprung and I don’t care.</p>
+            
+            <p class="lh-base">I can feel a phoenix inside of me. Maybe a reason why all the doors are closed. We go higher
+              and higher. Passport stamps, she's cosmopolitan. Someone said you had your tattoo removed. All my girls vintage
+              Chanel baby. Someone said you had your tattoo removed.</p>
+              <aside class=" row col-md-2 mt-2">
+                <div class="bg-light p-2  d-flex justify-content-between  mb-2 rounded ml-3 mx-1">
+                  <h4 class="about-me">O mnie</h4>
+                </div>
+              </aside>
+        <div class="card Last ">
+          
+      <img src="https://cdn.pixabay.com/photo/2015/04/20/13/43/person-731495__480.jpg" alt="kobieta w górach" class=>
+      <p class="lh-lg">But I will get there. This is real so take a chance and don't ever look back, don't ever look
+        back. You could travel the world but nothing comes close to the golden coast. Of anything and everything. Venice
+        beach and Palm Springs, summertime is everything. Do you ever feel already buried deep six feet under? It's time
+        to bring out the big balloons. So cover your eyes, I have a surprise. So I don't have to say you were the one
+        that got away.</p>
+      </div>
+    </div>
+    <div class="col-md-5 offset-md-4 my-2 mt-1">
+      <h2 class="blog-post-title mt-1 ">Przykładowy post</h2>
+        <p class="2h-sm">But you better choose carefully. Yo, shout out to all you kids, buying bottle service, with your
+          rent money.<br>  She's sweet as pie but if you break her heart. Just own the night like the 4th of July! In another
+          life I would be your girl. Playing ping pong all night long, everything's all neon and hazy. Shorty so bad, I’m
+          sprung and I don’t care.</p>
+          <hr>
+          <p class="lh-sm">But you better choose carefully. Yo, shout out to all you kids, buying bottle service, with your
+            rent money.<br>  She's sweet as pie but if you break her heart. Just own the night like the 4th of July! In another
+            life I would be your girl. Playing ping pong all night long, everything's all neon and hazy. Shorty so bad, I’m
+            sprung and I don’t care.</p>
+          
+          <p class="lh-base">I can feel a phoenix inside of me. Maybe a reason why all the doors are closed. We go higher
+            and higher. Passport stamps, she's cosmopolitan. Someone said you had your tattoo removed. All my girls vintage
+            Chanel baby. Someone said you had your tattoo removed.</p>
+    <p class="lh-lg">But I will get there. This is real so take a chance and don't ever look back, don't ever look
+      back. You could travel the world but nothing comes close to the golden coast. Of anything and everything. Venice
+      beach and Palm Springs, summertime is everything. Do you ever feel already buried deep six feet under? It's time
+      to bring out the big balloons. So cover your eyes, I have a surprise. So I don't have to say you were the one
+      that got away.</p>
+    </div>
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1">Poprzednie</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">5</a></li>
+        <li class="page-item"><a class="page-link" href="#">6</a></li>
+        <li class="page-item"><a class="page-link" href="#">7</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Kolejne</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="w-50 mx-auto my-1 positione"> 
+    <img  class ="lastPanorama"src="https://cdn.pixabay.com/photo/2017/01/30/16/11/sunset-2021266_960_720.jpg" alt="">
+    <div class="newsletter">
+    <form>
+      <div class=" form-group col-sm-4 col-md-6  my-1 mx-4">
+        <input type="email" class="form-control " id="exampleFormControlInput1" placeholder="wpisz email">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Zgadzam się z <a href="#">regulaminem</a> 
+          </label>
+        </div>
+        <button type="button button-image-llast" class="btn btn-lg btn-primary px-5-sm  mt-0 mx-4   "active>Zapisz na newsletter</button>
+      
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="col-4">
+      <div class="border rounded row g-0 overflow-hidden shadow-sm mx-auto  last-Card">
+          <div class="col p-4 d-flex flex-column   ">
+            <strong class="mb-2 text-primary">Wycieczka</strong>
+            <h3>Podróż</h3>
+            <div class="mb-2  text-muted">Sty 1</div>
+            <p class="card-text mb-auto ">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Eum earum incidunt facilis quaerat quod? Tenetur, pariatur voluptate!
+            </p>
+            <a href="#" class="stretched-link">Czytaj dalej</a>
+        </div>
+        <div class=" col-auto  d-none  d-md-block   ">
+            <img src="https://cdn.pixabay.com/photo/2017/02/18/08/49/phang-nga-bay-2076833__480.jpg" width="200" height="200" alt="" class="img-fluid  "  >
+        </div>
+      </div>
+  </div> 
+</div> 
+
+  <footer>
+    <div class="background">
+      <div class="flex-container">
+      <div class="left-flex-items">
+      <h5>Nazwa bloga</h5>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt hic, <br> minus eaque  ad fugit esse impedit unde? Eveniet,  eligendi temporibus.  <br> minus eaque ad fugit esse </p>
+</div>
+
+      <ul class="right-flex-items">
+        <h4>Szybkie linki:</h4>
+        <li><a href="#">O nas</a></li>
+        <li><a href="#">Artykuły</a></li>
+        <li><a href="#">Regulamin</a></li>
+        <li><a href="#">Kontakt</a></li>
+        
+      </ul>
+      <div class="last-items">
+        <h4>Kontakt</h4>
+        <p><a href="mailto:admin@example.com">admin@example.com</a>
+        </p>
+        <p>ul. Ujazdowska 0</p>
+        <p>00-000 Warszawa</p>
+        </div>
+    </div>
+    <p class="copyright">Copyright by Blog. All rights reserved</p>
+    </div>
+  </div>
+</div>
+  </footer>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+
+    </script>
+
+  </body>
+
+  </html>
